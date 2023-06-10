@@ -1,0 +1,1155 @@
+:root {
+  --btn-link: darkcyan;
+  --btn-cover: lightcyan;
+  --headings: darkcyan;
+  --feat-color: #fff;
+  --feat-background: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  background: lightcyan;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.main {
+  background: var(--btn-link);
+  height: 30vh;
+  width: 100%;
+}
+
+  /* first section */
+
+#photosnap {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first-div {
+  background: black;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-div p {
+  padding-top: 2.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+/* Second Section */
+
+#manage {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.manage-div-1 {
+  background: brown;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.manage-div-1 p {
+  padding-top: 2.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+/* Third Section */
+
+#account {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.account-div-1 {
+  background: purple;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-div-1 p {
+  padding-top: 2.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+/* fourth Section */
+
+#home {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-div {
+  background: darkcyan;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-div p {
+  padding-top: 2.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+/* fifth Section */
+
+#studio {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.studio-div {
+  background: brown;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.studio-div p {
+  padding-top: 2.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+/* Sixth Section */
+
+#facelt {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.face-div {
+  background: lightblue;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.face-div p {
+  margin-top: 1.3rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.face-div p img {
+  height: 95px;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+/* Seventh Section */
+
+#short {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.short-div {
+  background: lightskyblue;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.short-div p {
+  padding-top: 2.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+/* eigth Section */
+
+#sure {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sure-div {
+  background: lightcoral;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sure-div p {
+  padding-top: 2.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+/* nineth Section */
+
+#eyecam {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.eye-div {
+  background: lightseagreen;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.eye-div p {
+  padding-top: 2.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+/* tenth Section */
+
+#air-filter {
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.air-div {
+  background: seagreen;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.air-div p {
+  margin-top: 2.4rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.air-div p img {
+  height: 50px;
+  color: white;
+}
+
+.second-div {
+  border: 1px black solid;
+  margin-left: -23rem;
+  padding: 1rem;
+  border: none;
+}
+
+.second-div .snap {
+  font-weight: bold;
+  color: var(--btn-link);
+  /* margin-left: -6rem; */
+}
+
+.second-div .new {
+  background: var(--btn-link);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+}
+
+
+.second-div .tured {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 30px;
+}
+
+
+.second-div p {
+  margin-left: -2.7rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.second-div .usa,
+.time {
+  margin-left: 1rem;
+}
+
+.last-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-div span {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: var(--btn-link);
+}
+
+.last-div .stacks {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+}
+
+.last-div .senior {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .html {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .css {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.last-div .java {
+  background: var(--btn-cover);
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem;
+}
+
+
