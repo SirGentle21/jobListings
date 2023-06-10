@@ -26,12 +26,14 @@ body {
   /* first section */
 
 #photosnap {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 120px;
+  max-width: 1200px;
 }
 
 .first-div {
@@ -39,29 +41,28 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
   justify-content: center;
   align-items: center;
 }
 
 .first-div p {
-  padding-top: 2.2rem;
+  padding-top: 1.5rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 
 .second-div {
   border: 1px black solid;
-  margin-left: -23rem;
-  padding: 1rem;
   border: none;
 }
 
 .second-div .snap {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
+  margin-left: 23rem;
+  font-size: 0.7rem;
 }
 
 .second-div .new {
@@ -69,8 +70,8 @@ body {
   color: white;
   font-weight: bold;
   border-radius: 30px;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
+  padding: 0rem 0rem;
+  font-size: 0.5rem;
 }
 
 
@@ -78,21 +79,26 @@ body {
   background: black;
   color: white;
   font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
+  padding: 0.3rem 0.3rem;
   border-radius: 30px;
+  font-size: 0.5rem;
 }
 
 
 .second-div p {
-  margin-left: -2.7rem;
+  margin-right: -27rem;
   font-weight: bold;
   color: lightslategray;
 }
 
 .second-div .usa,
 .time {
-  margin-left: 1rem;
+  /* margin-right: -5rem; */
+}
+
+.second-div h1 {
+  margin-right: -22rem;
+  font-size: 1rem;
 }
 
 .last-div {
@@ -138,12 +144,14 @@ body {
 /* Second Section */
 
 #manage {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 120px;
+  max-width: 1200px;
 }
 
 .manage-div-1 {
@@ -151,60 +159,65 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
+   margin-left: -2rem;
   justify-content: center;
   align-items: center;
 }
 
 .manage-div-1 p {
-  padding-top: 2.2rem;
+  padding-top: 0.8rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
-.second-div {
-  border: 1px black solid;
-  margin-left: -23rem;
+.div-2 {
+  margin-left: 3rem;
   padding: 1rem;
-  border: none;
 }
 
-.second-div .snap {
+.div-2 .div-manage {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
+  margin-left: -10rem;
+  font-size: 0.7rem;
 }
 
-.second-div .new {
+.div-2 h1 {
+  font-size: 1rem;
+  margin-left: -12rem;
+}
+
+.div-2 .new {
   background: var(--btn-link);
   color: white;
   font-weight: bold;
   border-radius: 30px;
   padding: 0.5rem 1rem;
-  margin: 0.3rem;
+  font-size: 0.5rem;
 }
 
 
-.second-div .tured {
+.div-2 .tured {
   background: black;
   color: white;
   font-weight: bold;
   padding: 0.5rem 1rem;
-  margin: 0.3rem;
+  font-size: 0.5rem;
   border-radius: 30px;
 }
 
 
-.second-div p {
-  margin-left: -2.7rem;
+.div-2 p {
+  margin-left: -7.5rem;
   font-weight: bold;
   color: lightslategray;
 }
 
-.second-div .usa,
+.div-2 .usa,
 .time {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .last-div {
@@ -250,12 +263,14 @@ body {
 /* Third Section */
 
 #account {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 120px;
+  max-width: 1200px
 }
 
 .account-div-1 {
@@ -263,60 +278,57 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
   justify-content: center;
   align-items: center;
+  margin-left: -0.1rem;
 }
 
 .account-div-1 p {
-  padding-top: 2.2rem;
+  padding-top: 1.3rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
 
-.second-div {
+.div-3 {
   border: 1px black solid;
-  margin-left: -23rem;
+  margin-left: 3rem;
   padding: 1rem;
   border: none;
 }
 
-.second-div .snap {
+.div-3 .div-account {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
+  margin-left: -10rem;
+  font-size: 0.7rem;
 }
 
-.second-div .new {
+.div-3 .new {
   background: var(--btn-link);
   color: white;
   font-weight: bold;
   border-radius: 30px;
   padding: 0.5rem 1rem;
-  margin: 0.3rem;
+  font-size: 0.5rem; 
 }
 
 
-.second-div .tured {
-  background: black;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-  border-radius: 30px;
-}
-
-
-.second-div p {
+.div-3 p {
   margin-left: -2.7rem;
   font-weight: bold;
   color: lightslategray;
 }
 
-.second-div .usa,
+.div-3 h1 {
+  font-size: 1rem;
+  margin-left: -4.5rem;
+}
+
+.div-3 .usa,
 .time {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .last-div {
@@ -362,12 +374,14 @@ body {
 /* fourth Section */
 
 #home {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 1200px;
+  height: 120px;
 }
 
 .home-div {
@@ -375,55 +389,43 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
   justify-content: center;
   align-items: center;
+  margin-left: -2rem;
+  margin-right: 1rem;
 }
 
 .home-div p {
-  padding-top: 2.2rem;
+  padding-top: 1.3rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
 
-.second-div {
+.div-4 {
   border: 1px black solid;
-  margin-left: -23rem;
+  margin-left: 3rem;
   padding: 1rem;
   border: none;
 }
 
-.second-div .snap {
+.div-4 .div-my {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
-}
-
-.second-div .new {
-  background: var(--btn-link);
-  color: white;
-  font-weight: bold;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
+  margin-left: -20rem;
 }
 
 
-.second-div .tured {
-  background: black;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-  border-radius: 30px;
-}
-
-
-.second-div p {
-  margin-left: -2.7rem;
+.div-4 p {
+  margin-left: -9rem;
   font-weight: bold;
   color: lightslategray;
+}
+
+.div-4 h1 {
+  font-size: 1rem;
+  margin-left: -12rem;
 }
 
 .second-div .usa,
@@ -474,12 +476,14 @@ body {
 /* fifth Section */
 
 #studio {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 120px;
+  max-width: 1200px;
 }
 
 .studio-div {
@@ -487,60 +491,47 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
   justify-content: center;
   align-items: center;
+  /* margin-left: -3rem; */
+  margin-right: 3rem;
 }
 
 .studio-div p {
-  padding-top: 2.2rem;
+  padding-top: 0.7rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
-.second-div {
+.div-5 {
   border: 1px black solid;
-  margin-left: -23rem;
   padding: 1rem;
   border: none;
 }
 
-.second-div .snap {
+.div-5 .div-loop {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
+  margin-left: -12rem;
 }
 
-.second-div .new {
-  background: var(--btn-link);
-  color: white;
-  font-weight: bold;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
+.div-5 h1 {
+  font-size: 1rem;
+  margin-left: -10rem;
 }
 
 
-.second-div .tured {
-  background: black;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-  border-radius: 30px;
-}
-
-
-.second-div p {
-  margin-left: -2.7rem;
+.div-5 p {
+  margin-left: -3rem;
   font-weight: bold;
   color: lightslategray;
 }
 
-.second-div .usa,
+.div-5 .usa,
 .time {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .last-div {
@@ -586,12 +577,14 @@ body {
 /* Sixth Section */
 
 #facelt {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 120px;
+  max-width: 1200px;
 }
 
 .face-div {
@@ -599,64 +592,51 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
   justify-content: center;
   align-items: center;
+  margin-right: 5rem;
+  margin-left: -4rem;
 }
 
 .face-div p {
-  margin-top: 1.3rem;
+  margin-top: 0.4rem;
   font-weight: bold;
   font-size: 1rem;
 }
 
 .face-div p img {
-  height: 95px;
+  height: 55px;
 }
 
-.second-div {
+.div-6 {
   border: 1px black solid;
-  margin-left: -23rem;
+  /* margin-left: -23rem; */
   padding: 1rem;
   border: none;
 }
 
-.second-div .snap {
+.div-6 .div-face {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
+  margin-left: -23rem;
 }
 
-.second-div .new {
-  background: var(--btn-link);
-  color: white;
-  font-weight: bold;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
+.div-6 h1 {
+  font-size: 1rem;
+  margin-left: -14rem;
 }
 
-
-.second-div .tured {
-  background: black;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-  border-radius: 30px;
-}
-
-
-.second-div p {
-  margin-left: -2.7rem;
+.div-6 p {
+  margin-left: -12rem;
   font-weight: bold;
   color: lightslategray;
 }
 
-.second-div .usa,
+.div-6 .usa,
 .time {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .last-div {
@@ -702,12 +682,14 @@ body {
 /* Seventh Section */
 
 #short {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 120px;
+  max-width: 1200px;
 }
 
 .short-div {
@@ -715,60 +697,41 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
   justify-content: center;
   align-items: center;
+  /* margin-left: -5rem; */
 }
 
 .short-div p {
-  padding-top: 2.2rem;
+  padding-top: 1rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
-.second-div {
+.div-7 {
   border: 1px black solid;
-  margin-left: -23rem;
+  margin-left: -3rem;
   padding: 1rem;
   border: none;
 }
 
-.second-div .snap {
+.div-7 .div-short {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
+  margin-left: -8rem;
 }
 
-.second-div .new {
-  background: var(--btn-link);
-  color: white;
-  font-weight: bold;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-}
-
-
-.second-div .tured {
-  background: black;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-  border-radius: 30px;
-}
-
-
-.second-div p {
-  margin-left: -2.7rem;
+.div-7 p {
+  margin-left: 2.7rem;
   font-weight: bold;
   color: lightslategray;
 }
 
-.second-div .usa,
+.div-7 .usa,
 .time {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .last-div {
@@ -814,12 +777,14 @@ body {
 /* eigth Section */
 
 #sure {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 120px;
+  max-width: 1200px;
 }
 
 .sure-div {
@@ -827,60 +792,41 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
   justify-content: center;
   align-items: center;
+  /* margin-left: -3rem; */
 }
 
 .sure-div p {
-  padding-top: 2.2rem;
+  padding-top: 1rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
-.second-div {
+.div-8 {
   border: 1px black solid;
-  margin-left: -23rem;
+  /* margin-left: -23rem; */
   padding: 1rem;
   border: none;
 }
 
-.second-div .snap {
+.div-8 .div-insure {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
+  margin-left: -15rem;
 }
 
-.second-div .new {
-  background: var(--btn-link);
-  color: white;
-  font-weight: bold;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-}
-
-
-.second-div .tured {
-  background: black;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-  border-radius: 30px;
-}
-
-
-.second-div p {
-  margin-left: -2.7rem;
+.div-8 p {
+  margin-left: -3.6rem;
   font-weight: bold;
   color: lightslategray;
 }
 
 .second-div .usa,
 .time {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .last-div {
@@ -926,12 +872,14 @@ body {
 /* nineth Section */
 
 #eyecam {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 120px;
+  max-width: 1200px;
 }
 
 .eye-div {
@@ -939,58 +887,45 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
   justify-content: center;
   align-items: center;
+  margin-left: ;
 }
 
 .eye-div p {
-  padding-top: 2.2rem;
+  padding-top: 1rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
-.second-div {
+.div-9 {
   border: 1px black solid;
-  margin-left: -23rem;
+  /* margin-left: -23rem; */
   padding: 1rem;
   border: none;
 }
 
-.second-div .snap {
+.div-9 h1 {
+  font-size: 1rem;
+  margin-left: -6rem;
+}
+
+.div-9 .div-eye {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
-}
-
-.second-div .new {
-  background: var(--btn-link);
-  color: white;
-  font-weight: bold;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
+  margin-left: -9rem;
 }
 
 
-.second-div .tured {
-  background: black;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-  border-radius: 30px;
-}
-
-
-.second-div p {
-  margin-left: -2.7rem;
+.div-9 p {
+  margin-left: -2rem;
   font-weight: bold;
   color: lightslategray;
 }
 
-.second-div .usa,
+.div-9 .usa,
 .time {
   margin-left: 1rem;
 }
@@ -1038,12 +973,14 @@ body {
 /* tenth Section */
 
 #air-filter {
-  margin: 4rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 120px;
+  max-width: 1200px;
 }
 
 .air-div {
@@ -1051,16 +988,17 @@ body {
   color: white;
   align-items: center;
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
   justify-content: center;
   align-items: center;
+  /* margin-left: -3rem; */
 }
 
 .air-div p {
-  margin-top: 2.4rem;
+  margin-top: 0.6rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: rem;
 }
 
 .air-div p img {
@@ -1068,48 +1006,33 @@ body {
   color: white;
 }
 
-.second-div {
+.div-10 {
   border: 1px black solid;
-  margin-left: -23rem;
+  /* margin-left: -23rem; */
   padding: 1rem;
   border: none;
 }
 
-.second-div .snap {
+.div-10 .div-air {
   font-weight: bold;
   color: var(--btn-link);
-  /* margin-left: -6rem; */
+  margin-left: -6rem;
 }
 
-.second-div .new {
-  background: var(--btn-link);
-  color: white;
-  font-weight: bold;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
+.div-10 h1 {
+  font-size: 1rem;
+  margin-left: -7rem;
 }
 
-
-.second-div .tured {
-  background: black;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem;
-  border-radius: 30px;
-}
-
-
-.second-div p {
+.div-10 p {
   margin-left: -2.7rem;
   font-weight: bold;
   color: lightslategray;
 }
 
-.second-div .usa,
+.div-10 .usa,
 .time {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .last-div {
@@ -1152,4 +1075,4 @@ body {
   margin-left: 1.5rem;
 }
 
-
+ 
