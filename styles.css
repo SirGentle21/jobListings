@@ -17,10 +17,22 @@ body {
   align-items: center;
 }
 
-.main {
+.main { 
   background: var(--btn-link);
   height: 30vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.design {
+  background: white;
+  width: 20px;
+  height: 100px;
+  opacity: 0.4;
+  border-radius: 0 0 50% 50%;
 }
 
   /* first section */
@@ -45,6 +57,7 @@ body {
   width: 70px;
   justify-content: center;
   align-items: center;
+  /* margin-left: -2rem; */
 }
 
 .first-div p {
@@ -61,7 +74,7 @@ body {
 .second-div .snap {
   font-weight: bold;
   color: var(--btn-link);
-  margin-left: 23rem;
+  margin-left: -5rem;
   font-size: 0.7rem;
 }
 
@@ -70,7 +83,7 @@ body {
   color: white;
   font-weight: bold;
   border-radius: 30px;
-  padding: 0rem 0rem;
+  padding: 0.3rem 0.3rem;
   font-size: 0.5rem;
 }
 
@@ -86,18 +99,13 @@ body {
 
 
 .second-div p {
-  margin-right: -27rem;
+  margin-left: -1rem;
   font-weight: bold;
   color: lightslategray;
 }
 
-.second-div .usa,
-.time {
-  /* margin-right: -5rem; */
-}
-
 .second-div h1 {
-  margin-right: -22rem;
+  margin-left: -1.5rem;
   font-size: 1rem;
 }
 
@@ -612,7 +620,6 @@ body {
 
 .div-6 {
   border: 1px black solid;
-  /* margin-left: -23rem; */
   padding: 1rem;
   border: none;
 }
@@ -729,6 +736,11 @@ body {
   color: lightslategray;
 }
 
+.div-7 h1 {
+  font-size: 1rem;
+  margin-left: -3.5rem;
+}
+
 .div-7 .usa,
 .time {
   margin-left: 0rem;
@@ -796,7 +808,7 @@ body {
   width: 70px;
   justify-content: center;
   align-items: center;
-  /* margin-left: -3rem; */
+  margin-left: -1rem;
 }
 
 .sure-div p {
@@ -815,13 +827,18 @@ body {
 .div-8 .div-insure {
   font-weight: bold;
   color: var(--btn-link);
-  margin-left: -15rem;
+  margin-left: -12rem;
 }
 
 .div-8 p {
-  margin-left: -3.6rem;
+  margin-left: -2.5rem;
   font-weight: bold;
   color: lightslategray;
+}
+
+.div-8 h1 {
+  font-size: 1rem;
+  margin-left: -3rem;
 }
 
 .second-div .usa,
@@ -891,7 +908,6 @@ body {
   width: 70px;
   justify-content: center;
   align-items: center;
-  margin-left: ;
 }
 
 .eye-div p {
@@ -1075,4 +1091,9 @@ body {
   margin-left: 1.5rem;
 }
 
+
+/* box-shadow */
+section {
+  box-shadow: 3px 3px 10px black;;
+}
  
